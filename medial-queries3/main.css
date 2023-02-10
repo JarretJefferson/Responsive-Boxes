@@ -1,3 +1,73 @@
 body {
   background: peachpuff;
 }
+container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+
+}
+.a {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(107, 104, 104);
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+.b {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(107, 104, 104);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.c {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(107, 104, 104);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.d {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(107, 104, 104);
+  margin-bottom: 10px;
+  text-align: center;
+  flex-direction: column-reverse;
+}
+.e {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(107, 104, 104);
+  margin-bottom: 10px;
+  text-align: center;
+  flex-direction: column-reverse;
+}
+.f {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(107, 104, 104);
+  margin-bottom: 10px;
+  text-align: center;
+  flex-direction: column-reverse;
+}
+.g {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(107, 104, 104);
+  margin-bottom: 10px;
+  text-align: center;
+  flex-direction: column-reverse;
+}
+.h {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(107, 104, 104);
+  margin-bottom: 10px;
+  text-align: center;
+  flex-direction: column-reverse;
+}
