@@ -1,73 +1,89 @@
 body {
-  background: peachpuff;
+  background: rgb(203, 203, 203);
+  margin: 0;
 }
-container {
+@media (max-width: 768px) {
+  .box {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 576px) {
+  .box {
+    width: 100%;
+  }
+}
+
+
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction: column-reverse;
-
+  align-items: center;
+  height: 100vh;
 }
+
 .a {
-  width: 30%;
+  width: 200%;
   height: 200px;
-  background-color: rgb(107, 104, 104);
-  margin-bottom: 10px;
-  text-align: center;
+  background-color: rgb(202, 174, 14);
+  }
 
-}
 .b {
-  width: 30%;
-  height: 200px;
-  background-color: rgb(107, 104, 104);
-  margin-bottom: 10px;
-  text-align: center;
+  width: 20%;
+  height: 250px;
+  margin: 10px;
+  background-color: rgb(0, 0, 8);
 }
 
 .c {
-  width: 30%;
-  height: 200px;
-  background-color: rgb(107, 104, 104);
-  margin-bottom: 10px;
-  text-align: center;
+  width: 20%;
+  height: 250px;
+  margin: 10px;
+  background-color: rgb(178, 13, 228);
 }
+
 .d {
-  width: 30%;
+  width: 15%;
   height: 200px;
-  background-color: rgb(107, 104, 104);
-  margin-bottom: 10px;
-  text-align: center;
-  flex-direction: column-reverse;
+  margin: 10px;
+  background-color: rgb(206, 8, 67);
 }
+
 .e {
-  width: 30%;
+  width: 15%;
   height: 200px;
-  background-color: rgb(107, 104, 104);
-  margin-bottom: 10px;
-  text-align: center;
-  flex-direction: column-reverse;
+  margin: 10px;
+  background-color: rgb(206, 8, 67);
 }
+
 .f {
-  width: 30%;
+  width: 15%;
   height: 200px;
-  background-color: rgb(107, 104, 104);
-  margin-bottom: 10px;
-  text-align: center;
-  flex-direction: column-reverse;
+  margin: 10px;
+  background-color: rgb(206, 8, 67);
 }
+
 .g {
-  width: 30%;
+  width: 15%;
   height: 200px;
-  background-color: rgb(107, 104, 104);
-  margin-bottom: 10px;
-  text-align: center;
-  flex-direction: column-reverse;
+  margin: 10px;
+  background-color: rgb(206, 8, 67);
 }
+
 .h {
-  width: 30%;
-  height: 200px;
-  background-color: rgb(107, 104, 104);
-  margin-bottom: 10px;
-  text-align: center;
-  flex-direction: column-reverse;
+  width: 15%;
+  height: 600px;
+  margin: 10px;
+  background-color: rgb(206, 8, 67);
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+.b, .c, .d, .e, .f, .g {
+  width: 15%;
+  background-color: lightblue;
+  padding: 20px;
+  text-align: left;
 }
